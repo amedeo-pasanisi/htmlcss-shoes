@@ -4,12 +4,30 @@
     box-sizing: border-box;
 }
 
+/* INIZIO generale */
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
 .box{
     height: 100vh;
+}
+
+.wrapper{
+    width: 40%;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+/* FINE generale */
+
+.red,.green{
+    color: yellow;
 }
 
 .red{
@@ -22,4 +40,9 @@ body{
 
 .yellow{
     background-color: yellow;
+}
+
+/* DEBUG */
+.debug .wrapper{
+    background-color: violet;
 }
